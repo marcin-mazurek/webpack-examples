@@ -9,7 +9,7 @@
     "react-dom": "^15.5.4"
   },
   "scripts": {
-    "build": "npm run build:app && npm run build:vendor",
+    "build": "npm run build:vendor && npm run build:app",
     "build:app": "webpack --config webpack-app-config.js",
     "build:vendor": "webpack --config webpack-vendor-config.js"
   },
