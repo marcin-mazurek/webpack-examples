@@ -1,0 +1,21 @@
+{
+  "name": "dll-plugin",
+  "version": "0.0.1",
+  "main": "src/app.js",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "scripts": {
+    "build": "npm run build:app && npm run build:vendor",
+    "build:app": "webpack --config webpack-app-config.js",
+    "build:vendor": "webpack --config webpack-vendor-config.js"
+  },
+  "author": "Marcin Mazurek",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.5.1"
+  }
+}
