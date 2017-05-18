@@ -4,6 +4,17 @@ The plugins allow to split bundles into application-specific and external, so th
 
 It speeds up the development process (in this example build takes around 100ms instead of nearly 2 seconds) and allows to share vendor dependencies between application bundles. 
 
+## Running
+
+Install dependencies, make a build:
+
+```
+npm install
+npm run build
+```
+
+And then open either `page1.html` or `page2.html` page. 
+
 ## Demo
 
 Without DllReferencePlugin - 1698ms, 2.95mb of bundles in total:
