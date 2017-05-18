@@ -11,4 +11,14 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve('dist')
   },
+  plugins: [
+    new webpack.DllReferencePlugin({
+      context: path.resolve('.'),
+      manifest: require('./dist/react-manifest.json')
+    }),
+    new webpack.DllReferencePlugin({
+      context: path.resolve('.'),
+      manifest: require('./dist/utils-manifest.json')
+    }),
+  ]
 };
