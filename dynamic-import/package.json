@@ -1,0 +1,14 @@
+{
+  "name": "webpack-lazy-loading-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/root.js",
+  "dependencies": {
+    "webpack": "^2.5.1"
+  },
+  "scripts": {
+    "start": "webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}

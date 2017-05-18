@@ -1,0 +1,1 @@
+document.body.innerHTML += 'Executed dep2.js - imported in run-time with 3 seconds delay<br/>';

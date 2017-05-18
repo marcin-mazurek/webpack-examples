@@ -1,0 +1,1 @@
+document.body.innerHTML += 'Executed dep1.js (imported in run-time)<br/>';
