@@ -6,10 +6,10 @@ It speeds up the development process (in this example build takes around 100ms i
 
 ## Demo
 
-### Without DllReferencePlugin - 1698ms, 2.95mb of bundles in total
+Without DllReferencePlugin - 1698ms, 2.95mb of bundles in total:
 
 ![screen shot 2017-05-18 at 16 52 24](https://cloud.githubusercontent.com/assets/6684554/26208546/aa705e22-3bea-11e7-9749-66457237d004.png)
 
-### With DllReferencePlugin - **88ms** (excluding one-off vendor bundle build), **1.75mb** of bundles in total
+With DllReferencePlugin - **88ms** (excluding one-off vendor bundle build), **1.75mb** of bundles in total:
 
 ![screen shot 2017-05-18 at 16 51 46](https://cloud.githubusercontent.com/assets/6684554/26208551/acf59838-3bea-11e7-858c-00094dfcf0fd.png)
